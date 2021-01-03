@@ -1,0 +1,38 @@
+.trip-book {
+  @include bordered-box;
+  padding: 2rem;
+  margin-block-end: 1.25rem;
+
+  label {
+    margin-block-end: 0.75em;
+  }
+
+  button {
+    margin: 0;
+    color: $clr6;
+    background-color: $primary;
+    border-color: $primary;
+
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+
+  .specialReq,
+  .el-input-number {
+    border: 0.5px solid $clr5;
+    border-radius: 15px;
+    width: 100%;
+    margin-block-end: 1.25rem;
+    line-height: 38px;
+    overflow: hidden;
+  }
+
+  .specialReq {
+    padding: 0.5rem;
+  }
+  .el-input-number__decrease:hover,
+  .el-input-number__increase:hover {
+    color: $primary;
+  }
+}

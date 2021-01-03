@@ -1,0 +1,89 @@
+.preview-card {
+  position: relative;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.24s ease-out;
+
+  &:hover {
+    transform: translateY(-3px);
+    transform: scale(1.02);
+
+    .hide {
+      opacity: 1;
+    }
+  }
+
+  h2 {
+    font-size: em(21px);
+    margin-block-end: 0.2rem;
+  }
+
+  p {
+    margin: 0 0 0.2rem 0;
+    color: $clr4;
+  }
+
+  p.fully-booked {
+      color: $primary;
+  }
+
+  .seperator {
+    color: $clr4;
+    margin: 0 0.5rem;
+  }
+
+  & .details {
+    width: 100%;
+
+    display: inline-block;
+
+    hr {
+      margin-block: 0.55rem;
+      color: $clr5;
+      opacity: 0.35;
+    }
+
+    .guide-info,
+    .date {
+      color: $clr4;
+
+      .guide-img {
+        margin-inline-end: 10px;
+      }
+    }
+  }
+
+  .trip-preview-img {
+    border-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+
+    @media screen and (max-width: $bp5-xl) {
+      height: 300px;
+    }
+
+    @media screen and (max-width: $bp3-m){
+      height: 250px;
+    }
+  }
+
+  .toggle-fav {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    display: inline-block;
+    font-size: 1.25em;
+    line-height: 1.25rem;
+    border-radius: 12px;
+    padding: 0.5rem;
+    color: $primary;
+    background-color: $clr6;
+  }
+
+  .hide {
+    opacity: 0;
+    background-color: transparent;
+    transition: opacity 0.24s ease-out;
+  }
+}
+

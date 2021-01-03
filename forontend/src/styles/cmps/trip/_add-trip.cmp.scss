@@ -1,0 +1,19 @@
+.add-form {
+    margin: 0 auto;
+}
+
+
+.add-trip-form {
+    margin: 0 auto;
+    width: 900px;
+    & input {
+        width: 150px;
+    }
+    & select {
+        width: 150px;
+    }
+    & button {
+        margin-left: 10px;
+        width: 140px;
+    }
+}

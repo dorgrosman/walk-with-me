@@ -1,0 +1,52 @@
+
+.main-layout {
+    display: grid;
+    grid-template-columns: 
+    minmax(2rem, 1fr)
+    minmax(auto, 1300px)
+    minmax(2rem, 1fr);
+
+    > * {
+        grid-column: 2;
+    }
+
+    > .full {
+        grid-column: 1 / -1;
+    }
+
+    &#app {
+        min-height: 100vh;
+        width: 100vw;
+        grid-template-rows: auto 1fr;
+    }
+
+}
+
+.main-header, .hero {
+    grid-row: 1;
+}
+
+.main-header {
+    z-index: 2;
+    max-height: 15vh;
+}
+
+.main-footer {
+    max-height: 10vh;
+    padding-block: .5rem;
+    text-align: center;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+
+    @media screen and (max-width: $bp5-xl) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: $bp1-xs)  {
+        grid-template-columns: 1fr;
+    }
+}

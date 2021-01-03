@@ -1,0 +1,8 @@
+.guide-preview {
+    box-shadow: none;
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 1rem;
+    padding: .75rem;
+    margin-block-end: 1.5rem;
+}

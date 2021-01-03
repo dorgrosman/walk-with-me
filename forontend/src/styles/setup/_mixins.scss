@@ -1,0 +1,40 @@
+
+//Aspect Ratio Mixin
+
+@mixin aspect-ratio($width, $height) {
+    position: relative;
+    overflow: hidden;
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      padding-top: ($height / $width) * 100%;
+    }
+    > * {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }  
+    > img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  
+  // Mixin for removing hover efects on iphone screen
+  @mixin hover-supported {    
+    @media not all and (pointer: coarse) {
+        &:hover {
+            @content;
+        }
+    }
+  }
+
+  // Element Design
+
+  @mixin bordered-box {
+    border: .5px solid $clr5;
+    border-radius: 15px;
+  }

@@ -1,0 +1,19 @@
+.alert {
+    @include bordered-box;
+    color: $clr6;
+    padding: .5rem 1rem;
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    border-radius: 10px;
+    z-index: 2;
+    background-color: $primary;
+    max-width: 50vw;
+}
+
+// .alert-success {
+//     background-color: lightblue
+// }
+// .alert-danger {
+//     background-color: rgb(122, 11, 11);
+// }

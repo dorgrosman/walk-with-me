@@ -1,0 +1,46 @@
+.guide-reviews {
+  .reviews-header {
+    margin-block-end: 1.25rem;
+
+    h2 {
+      margin-block-end: 0;
+    }
+
+    button {
+      margin: 0;
+    }
+  }
+
+  .review-card,
+  .add {
+    @include bordered-box;
+    margin-block-end: 1.5rem;
+    padding: 1.5rem 1.5rem;
+
+    h3 {
+      margin-inline-start: 0.5rem;
+    }
+
+    .vue-star-rating {
+        margin-bottom: .5rem; 
+    }
+
+    textarea {
+      border: 0.5px solid $clr5;
+      border-radius: 15px;
+      padding: .5rem;
+      margin-block-end: 1rem;
+      width: 100%;
+    }
+
+    .form-btns {
+        max-width: fit-content;
+        align-self: flex-end;
+
+        button {
+          margin-inline-start: .5rem;
+        }
+
+    }
+  }
+}

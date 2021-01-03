@@ -1,0 +1,33 @@
+
+//Setup
+@import 'setup/typography';
+@import 'setup/variables';
+@import 'setup/mixins';
+@import 'setup/functions';
+
+// BASICS
+@import 'basics/helpers';
+@import 'basics/base';
+@import 'basics/layout';
+
+//Views
+@import 'views/home-page.scss';
+@import 'views/trip-details';
+@import 'views/back-office';
+@import 'views/user-details';
+@import 'views/login';
+
+
+//Components
+@import 'cmps/basic/main-header';
+@import 'cmps/basic/user-msg.cmp';
+
+@import 'cmps/trip/trip-preview.cmp';
+@import 'cmps/trip/trip-filter';
+@import 'cmps/trip/trip-book.cmp';
+@import 'cmps/trip/add-trip.cmp';
+
+
+@import 'cmps/guide/guide-preview.cmp';
+@import 'cmps/guide/guide-review.cmp';
+

@@ -1,0 +1,68 @@
+.hero {
+  background-image: url("../assets/img/hero/forest-hero.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 80vh;
+
+  .hero-txt {
+    text-align: center;
+    z-index: 1;
+    padding: 0 1rem;
+    &.head {
+      font-family: montserratBold;
+      font-size: rem(40px);
+      color: $clr6;
+      margin-bottom: .5rem;
+
+      @media screen and (max-width: $bp3-m) {
+        font-size: rem(32px);
+      }
+
+      @media screen and (max-width: $bp1-xs) {
+        font-size: rem(28px);
+      }
+    }
+
+    &.small {
+      font-family: openSansReg;
+      font-size: rem(26px);
+      color: $clr6;
+      margin-bottom: 1.5rem;
+
+      @media screen and (max-width: $bp3-m) {
+        font-size: rem(20px);
+      }
+
+      @media screen and (max-width: $bp2-s) {
+        font-size: rem(18px);
+      }
+
+    }
+  }
+}
+
+.home-page {
+
+    h3 {
+        font-size: rem(32px);
+        font-family: montserratBold;
+        margin-block-end: .75rem;
+
+        @media screen and (max-width: $bp1-xs) {
+          font-size: rem(28px);
+        }
+
+        @media screen and (max-width: $bp0-xxs) {
+          font-size: rem(26px);
+        }
+    }
+
+    .trip-list, .guide-list {
+        margin-block-end: 1rem;
+    }
+
+    .trips-by {
+      margin-block-start: 3.5rem;
+      margin-block-end: 1rem;
+    }
+}
