@@ -1,0 +1,271 @@
+
+{
+    "_id" : ObjectId("5fc54c65ba5fd6d904aad3a3"),
+    "cretatedAt" : 9898989.0,
+    "user" : {
+         "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+    "name" : "Charlie McBride",
+        "imgUrl" : "user1.jpeg"
+    },
+    "guide" : {
+         "_id" : ObjectId("5fc531cfba5fd6d904aad389"),
+    "name" : "Arnold Wellington",
+        "imgUrl" : "user3.jpeg"
+    },
+    "trip" : {
+        "_id" : ObjectId("5fc538bcba5fd6d904aad392"),
+        "name" : "Scotland Highlands",
+        "imgUrl" : ""
+    },
+    "status" : "pending",
+    "peopleToSign" : 2.0,
+    "specialReq" : "Vegan meals please"
+},
+{
+    "_id" : ObjectId("5fc54c65ba5fd6d904aad3a4"),
+    "cretatedAt" : 9898989.0,
+    "user" : {
+          "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+    "name" : "Charlie McBride",
+        "imgUrl" : "img.jpg"
+    },
+    "guide" : {
+        "_id" : ObjectId("5fc531cfba5fd6d904aad389"),
+    "name" : "Arnold Wellington",
+        "imgUrl" : "user3.jpeg"
+    },
+    "trip" : {
+        "_id" : ObjectId("5fc538bcba5fd6d904aad397"),
+        "name" : "Tuscany Vineyards",
+        "imgUrl" : ""
+    },
+    "status" : "pending",
+    "peopleToSign" : 3.0,
+    "specialReq" : "With kids so please something relaxing"
+},
+{
+    "_id" : ObjectId("5fc54c65ba5fd6d904aad3a7"),
+    "guide" : {
+        "_id" : ObjectId("5fc531cfba5fd6d904aad389"),
+    "name" : "Arnold Wellington",
+        "imgUrl" : "user3.jpeg"
+    },
+    "trip" : {
+        "_id" : ObjectId("5fc538bcba5fd6d904aad39f"),
+        "name" : "London Jems",
+        "imgUrl" : [ 
+            "trip1.jpg", 
+            "trip2.jpg", 
+            "trip3.jpg", 
+            "trip4.jpg"
+        ]
+    },
+    "status" : "approved",
+    "peopleToSign" : 2.0,
+    "specialReq" : "Would love to go on the London Eye",
+    "user" : {
+         "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+    "name" : "Charlie McBride",
+        "imgUrl" : "user1.jpeg"
+    }
+},
+{
+    "_id" : ObjectId("5fc54c65ba5fd6d904aad3a9"),
+    "guide" : {
+        "_id" : ObjectId("5fc531cfba5fd6d904aad389"),
+    "name" : "Arnold Wellington",
+        "imgUrl" : "user3.jpeg"
+    },
+    "trip" : {
+        "_id" : ObjectId("5fc538bcba5fd6d904aad39b"),
+        "name" : "Miami Beaches",
+        "imgUrl" : [ 
+            "miami1.jpeg", 
+            "trip2.jpg", 
+            "trip3.jpg", 
+            "trip4.jpg"
+        ]
+    },
+    "status" : "pending",
+    "peopleToSign" : 1.0,
+    "specialReq" : "Lot's of Beach Time",
+    "sum" : 18.59,
+    "user" : {
+         "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+    "name" : "Charlie McBride",
+        "imgUrl" : "user1.jpeg"
+    }
+},
+{
+    "_id" : ObjectId("5fc54c65ba5fd6d904aad3ab"),
+    "createdAt" : "11/29/2020",
+    "guide" : {
+        "_id" : ObjectId("5fc531cfba5fd6d904aad38b"),
+        "name" : "Wally Wanderer",
+        "imgUrl" : "user2.jpeg"
+    },
+    "trip" : {
+        "_id" : ObjectId("5fc538bcba5fd6d904aad393"),
+        "name" : "Switzerland Mountains",
+        "imgUrl" : [ 
+            "swiss1.jpeg", 
+            "trip2.jpg", 
+            "trip3.jpg", 
+            "trip4.jpg"
+        ]
+    },
+    "status" : "pending",
+    "peopleToSign" : 1.0,
+    "specialReq" : "",
+    "sum" : 22.39,
+    "user" : {
+        "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+    "name" : "Charlie McBride",
+        "imgUrl" : "user1.jpeg"
+    }
+},
+{
+    "_id" : ObjectId("5fc7e97be6da30b3c0589d4b"),
+    "createdAt" : "12/2/2020",
+    "guide" : {
+        "_id" : "5fc531cfba5fd6d904aad38e",
+        "name" : "Gloria Macintosh",
+        "imgUrl" : "user4.jpeg"
+    },
+    "trip" : {
+        "_id" : "5fc538bcba5fd6d904aad3a0",
+        "name" : "Tel-Aviv Walkabout",
+        "imgUrl" : [ 
+            "telaviv1.jpeg", 
+            "trip2.jpg", 
+            "trip3.jpg", 
+            "trip4.jpg"
+        ],
+        "capacity" : 7
+    },
+    "status" : "pending",
+    "peopleToSign" : 3,
+    "specialReq" : "",
+    "sum" : "72.87",
+    "user" : {
+         "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+    "name" : "Charlie McBride",
+        "imgUrl" : "user1.jpeg"
+    }
+},
+{
+    "_id" : ObjectId("5fc7e9a1e6da30b3c0589d4c"),
+    "createdAt" : "12/2/2020",
+    "guide" : {
+        "_id" : "5fc531cfba5fd6d904aad38e",
+        "name" : "Gloria Macintosh",
+        "imgUrl" : "user4.jpeg"
+    },
+    "trip" : {
+        "_id" : "5fc538bcba5fd6d904aad3a0",
+        "name" : "Tel-Aviv Walkabout",
+        "imgUrl" : [ 
+            "telaviv1.jpeg", 
+            "trip2.jpg", 
+            "trip3.jpg", 
+            "trip4.jpg"
+        ],
+        "capacity" : 7
+    },
+    "status" : "pending",
+    "peopleToSign" : 1,
+    "specialReq" : "",
+    "sum" : 24.29,
+    "user" : {
+          "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+    "name" : "Charlie McBride",
+        "imgUrl" : "user1.jpeg"
+    }
+},
+{
+    "_id" : ObjectId("5fc7e9cde6da30b3c0589d4d"),
+    "createdAt" : "12/2/2020",
+    "guide" : {
+        "_id" : "5fc531cfba5fd6d904aad38e",
+        "name" : "Gloria Macintosh",
+        "imgUrl" : "user4.jpeg"
+    },
+    "trip" : {
+        "_id" : "5fc538bcba5fd6d904aad3a0",
+        "name" : "Tel-Aviv Walkabout",
+        "imgUrl" : [ 
+            "telaviv1.jpeg", 
+            "trip2.jpg", 
+            "trip3.jpg", 
+            "trip4.jpg"
+        ],
+        "capacity" : 7
+    },
+    "status" : "pending",
+    "peopleToSign" : 1,
+    "specialReq" : "",
+    "sum" : 24.29,
+    "user" : {
+          "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+    "name" : "Charlie McBride",
+        "imgUrl" : "user1.jpeg"
+    }
+},
+{
+    "_id" : ObjectId("5fc7ea82e6da30b3c0589d4e"),
+    "createdAt" : "12/2/2020",
+    "guide" : {
+        "_id" : "5fc531cfba5fd6d904aad38e",
+        "name" : "Gloria Macintosh",
+        "imgUrl" : "user4.jpeg"
+    },
+    "trip" : {
+        "_id" : "5fc538bcba5fd6d904aad39a",
+        "name" : "The Amazon rainforest",
+        "imgUrl" : [ 
+            "amazon1.jpeg", 
+            "trip2.jpg", 
+            "trip3.jpg", 
+            "trip4.jpg"
+        ],
+        "capacity" : 5
+    },
+    "status" : "pending",
+    "peopleToSign" : 2,
+    "specialReq" : "",
+    "sum" : "65.98",
+    "user" : {
+         "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+    "name" : "Charlie McBride",
+        "imgUrl" : "user1.jpeg"
+    }
+},
+{
+    "_id" : ObjectId("5fc7ec6be6da30b3c0589d4f"),
+    "createdAt" : "12/2/2020",
+    "guide" : {
+        "_id" : "5fc531cfba5fd6d904aad38e",
+        "name" : "Gloria Macintosh",
+        "imgUrl" : "user4.jpeg"
+    },
+    "trip" : {
+        "_id" : "5fc538bcba5fd6d904aad39a",
+        "name" : "The Amazon rainforest",
+        "imgUrl" : [ 
+            "amazon1.jpeg", 
+            "trip2.jpg", 
+            "trip3.jpg", 
+            "trip4.jpg"
+        ],
+        "capacity" : 5
+    },
+    "status" : "pending",
+    "peopleToSign" : 2,
+    "specialReq" : "",
+    "sum" : "65.98",
+    "user" : {
+          "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+    "name" : "Charlie McBride",
+        "imgUrl" : "user1.jpeg"
+    }
+}

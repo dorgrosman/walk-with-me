@@ -1,0 +1,61 @@
+[33mcommit b92d9424c7c46d60c1adc1e5824de735a3f57b94[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: dorgrosman <ddorgrosman@gmail.com>
+Date:   Sun Dec 6 00:27:15 2020 +0200
+
+    first
+
+[33mcommit 4b4cbc7ae76e9449f6c323fd123a7496183bf54a[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: dorgrosman <ddorgrosman@gmail.com>
+Date:   Sat Dec 5 23:04:21 2020 +0200
+
+    .
+
+[33mcommit 0f7aacc9f9b85174d79111d7b7bad65f2914f654[m
+Merge: e0e15b8 ad078ae
+Author: dorgrosman <ddorgrosman@gmail.com>
+Date:   Thu Dec 3 20:59:55 2020 +0200
+
+    Merge branch 'main' of https://github.com/dorgrosman/WalkWithMe-Backend into main
+
+[33mcommit e0e15b8633ae537a7e8c49077447b0fb1f7db07e[m
+Author: dorgrosman <ddorgrosman@gmail.com>
+Date:   Thu Dec 3 20:59:33 2020 +0200
+
+    socket 21:00
+
+[33mcommit ad078aed03cf6db4a720e0ceaa63bbe37e284d29[m
+Author: Ben Graham <benben1510@gmail.com>
+Date:   Thu Dec 3 16:34:29 2020 +0200
+
+    small db updatrs
+
+[33mcommit 66d437183aafc61f54dcd9644217d4cfc0f3ebb5[m
+Merge: 14919b5 92cea94
+Author: Ben Graham <benben1510@gmail.com>
+Date:   Wed Dec 2 20:55:28 2020 +0200
+
+    Merge branch 'main' of https://github.com/dorgrosman/WalkWithMe-Backend into main
+
+[33mcommit 14919b5ebef27bbdc5560f7c30ecaf4ac9449b91[m
+Author: Ben Graham <benben1510@gmail.com>
+Date:   Wed Dec 2 20:55:12 2020 +0200
+
+    ben
+
+[33mcommit 92cea9426a4572ba33ffc57a71c720e0287738ef[m
+Author: dorgrosman <ddorgrosman@gmail.com>
+Date:   Wed Dec 2 20:54:48 2020 +0200
+
+    fix signup
+
+[33mcommit 40b1dec82f3f2b155ca83cb54ad72ed0a6141ac4[m
+Author: Ben Graham <benben1510@gmail.com>
+Date:   Wed Dec 2 13:19:33 2020 +0200
+
+    data updated
+
+[33mcommit c8bf74797745e008e6b9fddf5fbc5324d2e40cf5[m[33m ([m[1;31morigin/Gal[m[33m, [m[1;31morigin/Ben[m[33m, [m[1;32mGal[m[33m, [m[1;32mDor[m[33m, [m[1;32mBen[m[33m)[m
+Author: dorgrosman <ddorgrosman@gmail.com>
+Date:   Wed Dec 2 10:58:38 2020 +0200
+
+    first commit

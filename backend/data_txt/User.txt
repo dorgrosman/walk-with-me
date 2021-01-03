@@ -1,0 +1,277 @@
+
+    {
+      "_id" : ObjectId("5fc531cfba5fd6d904aad389"),
+    "name" : "Arnold Wellington",
+    "password" : "$2b$10$a2kWPwJ8Lvr7C7/rUOfP9O68hoh2IxjpWTXfbHfnm81fdIMRtkOx2",
+    "favoriteTrips" : [],
+      "profileImgUrl": "user3.jpeg",
+      "isGuide": true,
+      "guideInfo": {
+        "rate": 4.5,
+        "description": "Trying to keep a great vibe with all the group",
+        "lang": [
+          "English",
+          "Hebrew",
+          "Welsh"
+        ],
+        "reviews": [
+          {
+            "id": "r101",
+            "txt": "A great guide to hike with..😊",
+            "rate": 5,
+            "reviewByUser": {
+              "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+              "userName": "Charlie McBride",
+              "imgUrl": "user1.jpeg"
+            }
+          },
+          {
+            "id": "r102",
+            "txt": "A very informative guide",
+            "rate": 3,
+            "reviewByUser": {
+              "_id" : ObjectId("5fc531cfba5fd6d904aad38c"),
+              "userName": "Charles Xavier",
+              "imgUrl": "user5.jpeg"
+            }
+          },
+          {
+            "_id" :"r103",
+            "txt": "Finally found a Welsh speaking guide, what a blast! ",
+            "rate": 5,
+            "reviewByUser": {
+              "_id":  ObjectId("5fc78bbc02450188daa66b56"),
+              "userName": "Dr. James Silverfield",
+              "imgUrl": "user7.jpeg"
+            }
+          },
+          {
+            "_id" :"r104",
+            "txt": "Thank you for a great time, loved all the little jokes on the way ",
+            "rate": 5,
+            "reviewByUser": {
+              "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+              "userName": "Charlie McBride",
+              "imgUrl": "user1.jpeg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+      "name" : "Charlie McBride",
+  "password" : "$2b$10$a2kWPwJ8Lvr7C7/rUOfP9O68hoh2IxjpWTXfbHfnm81fdIMRtkOx2",
+  "favoriteTrips" : [ 
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad393"),
+        "name" : "Switzerland Mountains",
+        "date" : 9898989.0
+    }, 
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad392"),
+        "name" : "Scotland Heights",
+        "date" : 9898989.0
+    }, 
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad397"),
+        "name" : "Tuscany Vineyards",
+        "date" : 9898989.0
+    }
+],
+      "profileImgUrl": "user1.jpeg",
+      "isGuide": false,
+      "guideInfo": {
+        "rate": "",
+        "description": "",
+        "lang": [],
+        "reviews": []
+      }
+    },
+    {
+      "_id" : ObjectId("5fc531cfba5fd6d904aad38b"),
+      "name" : "Wally Wanderer",
+  "password" : "$2b$10$a2kWPwJ8Lvr7C7/rUOfP9O68hoh2IxjpWTXfbHfnm81fdIMRtkOx2",
+      "favoriteTrips" : [],
+      "profileImgUrl": "user2.jpeg",
+      "isGuide": true,
+      "guideInfo": {
+        "rate": 3.3,
+        "description": "I love mountains trails and the fresh air ",
+        "lang": [
+          "English",
+          "Hebrew",
+          "Norwegian"
+        ],
+        "reviews": [
+          {
+            "id": "r107",
+            "txt": "A very informative guide",
+            "rate": 3,
+            "reviewByUser": {
+              "_id":ObjectId("5fc531cfba5fd6d904aad38c"),
+              "userName": "Charles Xavier",
+              "imgUrl": "user5.jpeg"
+            }
+          },
+          {
+            "id": "r108",
+            "txt": "Quite a cold guy",
+            "rate": 2,
+            "reviewByUser": {
+              "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+              "userName":"Charlie McBride",
+              "imgUrl": "user1.jpeg"
+            }
+          },
+          {
+            "id": "r109",
+            "txt": "Booked with him again and he was wonderful",
+            "rate": 5,
+            "reviewByUser": {
+              "_id": ObjectId("5fc531cfba5fd6d904aad38c"),
+              "userName": "Charles Xavier",
+              "imgUrl": "user5.jpeg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id" : ObjectId("5fc531cfba5fd6d904aad38c"),
+    "name" : "Charles Xavier",
+"password" : "$2b$10$a2kWPwJ8Lvr7C7/rUOfP9O68hoh2IxjpWTXfbHfnm81fdIMRtkOx2",
+    "favoriteTrips" : [ 
+        {
+            "_id" : ObjectId("5fc538bcba5fd6d904aad39b"),
+            "name" : "Miami Beaches",
+            "date" : 9898989.0
+        }
+    ],
+      "profileImgUrl": "user5.jpeg",
+      "isGuide": false,
+      "guideInfo": {
+        "rate": "",
+        "description": "",
+        "lang": [],
+        "reviews": []
+      }
+    },
+    {
+      "_id" : ObjectId("5fc78bbc02450188daa66b56"),
+      "name" : "Dr. James Silverfield",
+  "password" : "$2b$10$a2kWPwJ8Lvr7C7/rUOfP9O68hoh2IxjpWTXfbHfnm81fdIMRtkOx2",
+      "favoriteTrips" : [ 
+          {
+                   "_id": ObjectId("5fc538bcba5fd6d904aad39f"),
+              "name" : "London Jems",
+              "date" : 9898989.0
+          }
+      ],
+      "profileImgUrl": "user7.jpeg",
+      "isGuide": false,
+      "guideInfo": {
+        "rate": "",
+        "description": "",
+        "lang": [],
+        "reviews": []
+      }
+    },
+    {
+      "_id" : ObjectId("5fc531cfba5fd6d904aad38e"),
+      "name" : "Gloria Macintosh ",
+  "password" : "$2b$10$a2kWPwJ8Lvr7C7/rUOfP9O68hoh2IxjpWTXfbHfnm81fdIMRtkOx2",
+      "favoriteTrips" : [],
+      "profileImgUrl": "user4.jpeg",
+      "isGuide": true,
+      "guideInfo": {
+        "rate": 4.5,
+        "description": "Let me take you on an adventure that combines sun, fresh air and lots of green everywhere ",
+        "lang": [
+          "English",
+          "Italian"
+        ],
+        "reviews": [
+          {
+            "id": "r111",
+            "txt": "An amazing guide, can't wait to go on a trip again with her",
+            "rate": 4,
+            "reviewByUser": {
+              "_id": ObjectId("5fc531cfba5fd6d904aad38c"),
+              "userName": "Charles Xavier",
+              "imgUrl": "user5.jpeg"
+            }
+          },
+          {
+            "id": "r112",
+            "txt": "Would give her 10 if I could",
+            "rate": 5,
+            "reviewByUser": {
+              "_id": ObjectId("5fc531cfba5fd6d904aad38a"),
+              "userName":"Charlie McBride",
+              "imgUrl": "user1.jpeg"
+            }
+          },
+          {
+            "id": "r112",
+            "txt": "Would give her 10 if I could",
+            "rate": 5,
+            "reviewByUser": {
+              "_id":ObjectId("5fc78bbc02450188daa66b56"),
+              "userName": "Dr. James Silverfield",
+              "imgUrl": "user7.jpeg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id" : ObjectId("5fc531cfba5fd6d904aad38f"),
+      "name" : "Lily Blossom ",
+  "password" : "$2b$10$a2kWPwJ8Lvr7C7/rUOfP9O68hoh2IxjpWTXfbHfnm81fdIMRtkOx2",
+      "favoriteTrips" : [],
+      "profileImgUrl": "user6.jpeg",
+      "isGuide": true,
+      "guideInfo": {
+        "rate": 4.7,
+        "description": "Come with me to be amazed at nature ",
+        "lang": [
+          "English",
+          "Italian",
+          "French"
+        ],
+        "reviews": [
+          {
+            "id": "r102",
+            "txt": "Such a free spirit",
+            "rate": 4,
+            "reviewByUser": {
+              "_id" : ObjectId("5fc78bbc02450188daa66b56"),
+              "userName": "Dr. James Silverfield",
+              "imgUrl": "user7.jpeg"
+            }
+          },
+          {
+            "_id" : ObjectId("5fc78bbc02450188daa66b56"),
+            "txt": "Would give her 10 if I could",
+            "rate": 5,
+            "reviewByUser": {
+              "_id" : ObjectId("5fc531cfba5fd6d904aad38a"),
+              "userName": "Charlie McBride",
+              "imgUrl": "user1.jpeg"
+            }
+          },
+          {
+            "id": "r108",
+            "txt": "Amazing time!!!",
+            "rate": 5,
+            "reviewByUser": {
+              "_id" : ObjectId("5fc78bbc02450188daa66b56"),
+              "userName": "Dr. James Silverfield",
+              "imgUrl": "user7.jpeg"
+            }
+          }
+        ]
+      }
+    }
+  

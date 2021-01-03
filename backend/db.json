@@ -1,0 +1,991 @@
+{
+  "user": [
+    {
+      "_id": "u101",
+      "name": "Puki Globali",
+      "favoriteTrips": [],
+      "profileImgUrl": "user3.jpeg",
+      "isGuide": true,
+      "guideInfo": {
+        "rate": 4,
+        "description": "Trying to keep a great vibe with all the group",
+        "lang": [
+          "English",
+          "Hebrew",
+          "Welsh"
+        ],
+        "reviews": [
+          {
+            "id": "r101",
+            "txt": "A great guide to hike with..😊",
+            "rate": 5,
+            "reviewByUser": {
+              "_id": "u102",
+              "userName": "Shuki Locali",
+              "imgUrl": "user1.jpeg"
+            }
+          },
+          {
+            "id": "r102",
+            "txt": "A very informative guide",
+            "rate": 3,
+            "reviewByUser": {
+              "_id": "u104",
+              "userName": "Charles Xavier",
+              "imgUrl": "user5.jpeg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id": "u102",
+      "name": "Shuki Locali",
+      "favoriteTrips": [
+        {
+          "_id": "t101-2",
+          "name": "Switzerland Mountains",
+          "date": 9898989
+        },
+        {
+          "_id": "t101-1",
+          "name": "Scotland Heights",
+          "date": 9898989
+        },
+        {
+          "_id": "t102-1",
+          "name": "Tuscany Vineyards",
+          "date": 9898989
+        }
+      ],
+      "profileImgUrl": "user1.jpeg",
+      "isGuide": false,
+      "guideInfo": {
+        "rate": "",
+        "description": "",
+        "lang": [],
+        "reviews": []
+      }
+    },
+    {
+      "_id": "u103",
+      "name": "Wally Wanderer",
+      "favoriteTrips": [],
+      "profileImgUrl": "user2.jpeg",
+      "isGuide": true,
+      "guideInfo": {
+        "rate": 2,
+        "description": "I love mountains trails and the fresh air ",
+        "lang": [
+          "English",
+          "Hebrew",
+          "Norwegian"
+        ],
+        "reviews": [
+          {
+            "id": "r102",
+            "txt": "A very informative guide",
+            "rate": 3,
+            "reviewByUser": {
+              "_id": "u104",
+              "userName": "Charles Xavier",
+              "imgUrl": "user5.jpeg"
+            }
+          },
+          {
+            "id": "r103",
+            "txt": "Quite a cold guy",
+            "rate": 1,
+            "reviewByUser": {
+              "_id": "u102",
+              "userName": "Shuki Locali",
+              "imgUrl": "user1.jpeg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id": "u104",
+      "name": "Charles Xavier",
+      "favoriteTrips": [
+        {
+          "_id": "t103-1",
+          "name": "Miami Beaches",
+          "date": 9898989
+        }
+      ],
+      "profileImgUrl": "user5.jpeg",
+      "isGuide": false,
+      "guideInfo": {
+        "rate": "",
+        "description": "",
+        "lang": [],
+        "reviews": []
+      }
+    },
+    {
+      "_id": "u105",
+      "name": "Mr. Bit",
+      "favoriteTrips": [
+        {
+          "_id": "t106-1",
+          "name": "London Jems",
+          "date": 9898989
+        }
+      ],
+      "profileImgUrl": "user7.jpeg",
+      "isGuide": false,
+      "guideInfo": {
+        "rate": "",
+        "description": "",
+        "lang": [],
+        "reviews": []
+      }
+    },
+    {
+      "_id": "u106",
+      "name": "Gloria Macintosh ",
+      "favoriteTrips": [],
+      "profileImgUrl": "user4.jpeg",
+      "isGuide": true,
+      "guideInfo": {
+        "rate": 4.5,
+        "description": "Let me take you on an adventure that combines sun, fresh air and lots of green everywhere ",
+        "lang": [
+          "English",
+          "Italian"
+        ],
+        "reviews": [
+          {
+            "id": "r102",
+            "txt": "An amazing guide, can't wait to go on a trip again with her",
+            "rate": 4,
+            "reviewByUser": {
+              "_id": "u104",
+              "userName": "Charles Xavier",
+              "imgUrl": "user5.jpeg"
+            }
+          },
+          {
+            "id": "r103",
+            "txt": "Would give her 10 if I could",
+            "rate": 5,
+            "reviewByUser": {
+              "_id": "u102",
+              "userName": "Shuki Locali",
+              "imgUrl": "user1.jpeg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "_id": "u107",
+      "name": "Lily Blossom ",
+      "favoriteTrips": [],
+      "profileImgUrl": "user6.jpeg",
+      "isGuide": true,
+      "guideInfo": {
+        "rate": 4.7,
+        "description": "Come with me to be amazed at nature ",
+        "lang": [
+          "English",
+          "Italian",
+          "French"
+        ],
+        "reviews": [
+          {
+            "id": "r102",
+            "txt": "Such a free spirit",
+            "rate": 4,
+            "reviewByUser": {
+              "_id": "u105",
+              "userName": "Mr. Bit",
+              "imgUrl": "user7.jpeg"
+            }
+          },
+          {
+            "id": "r103",
+            "txt": "Would give her 10 if I could",
+            "rate": 5,
+            "reviewByUser": {
+              "_id": "u102",
+              "userName": "Shuki Locali",
+              "imgUrl": "user1.jpeg"
+            }
+          },
+          {
+            "id": "r108",
+            "txt": "Amazing time!!!",
+            "rate": 5,
+            "reviewByUser": {
+              "_id": "u105",
+              "userName": "Mr. Bit",
+              "imgUrl": "user7.jpeg"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "trip": [
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad392"),
+      "name": "Scotland Highlands",
+      "latlang": {
+        "lat": 55.953251,
+        "lng": -3.188267
+      },
+      "date": 1640988000000,
+      "duration": "5 Days",
+      "type": "mountain",
+      "description": [
+        "The Highlands really is the Scotland of your imagination. Think big skies, mind-blowing landscapes, superb food and hospitable people - and you've got the Scottish Highlands. There's a natural playground which begs to be explored, while the region's turbulent history has left behind some of the most beautiful and romantic castles in the world.",
+        "The Scottish Highlands are a mountainous region encompassing northwest Scotland. Loch Ness is at the centre, overlooked by the ruins of medieval Urquhart Castle and known for mythical monster “Nessie”.",
+        "Northeast, near the city of Inverness, dolphins swim in the Moray Firth. Southwest, in the Western Highlands, trails wind up Ben Nevis, the U.K.’s highest peak, and red deer roam Glencoe valley with its waterfalls.",
+      ],
+      "difficulty": 4,
+      "imgUrls": [
+        "scotland1.jpeg",
+        "scotland2.jpeg",
+        "scotland3.jpeg",
+        "scotland4.jpeg"
+      ],
+      "region": "Europe",
+      "totalBooked": 2,
+      "price": 11.11,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad38b"),
+        "name": "Wally Wanderer",
+        "imgUrl": "user2.jpeg",
+        "rate": 2.3
+      }
+    },
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad393"),
+      "name": "Switzerland Mountains",
+      "latlang": {
+        "lat": 46.5368,
+        "lng": 7.9626
+      },
+      "date": 1670536800000,
+      "duration": "2 Days",
+      "type": "mountain",
+      "description": [
+        "The name Jungfrau(\"maiden, virgin\"), which refers to the highest of the three prominent mountains overlooking the Interlaken region, along with the Mönch (\"monk\") and the Eiger (\"ogre\"), is most likely derived from the name Jungfrauenberg given to Wengernalp, the alpine meadow directly facing the huge northern side of the Jungfrau, across the Trummelbach gorge.",
+        "Wengernalp was so named for the nuns of Interlaken Monastery, its historical owner. Contrary to popular belief, the name did not originate from the appearance of the snow-covered mountain, the latter looking like a veiled woman.The \"virgin\" peak was heavily romanticized as \"goddess\" or \"priestess\" in late 18th to 19th century Romanticism.",
+        "Its summit, considered inaccessible, remained untouched until the 19th century. After the first ascent in 1811 by Swiss alpinist Johann Rudolf Meyer, the peak was jokingly referred to as \"Mme Meyer\""
+      ],
+      "difficulty": 4.0,
+      "imgUrls": [
+        "swiss1.jpeg",
+        "swiss2.jpeg",
+        "swiss3.jpeg",
+        "swiss4.jpeg"
+      ],
+      "region": "Europe",
+      "totalBooked": 1,
+      "price": 22.39,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad38b"),
+        "name": "Wally Wanderer",
+        "imgUrl": "user2.jpeg",
+        "rate": 2.3
+      }
+    },
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad394"),
+      "name": "Mount Everest",
+      "latlang": {
+        "lat": 27.9881,
+        "lng": 86.925
+      },
+      "date": 1651784400000,
+      "duration": "12 Days",
+      "type": "mountain",
+      "description": [
+        "Mount Everest, is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. The China–Nepal border runs across its summit point.The current official elevation of 8,848 m (29,029 ft), recognised by China and Nepal, was established by a 1955 Indian survey and confirmed by a 1975 Chinese survey.",
+        "In 1865, Everest was given its official English name by the Royal Geographical Society, as recommended by Andrew Waugh, the British Surveyor General of India, who chose the name of his predecessor in the post, Sir George Everest, despite Everest's objections.",
+        "Mount Everest attracts many climbers, some of them highly experienced mountaineers. There are two main climbing routes, one approaching the summit from the southeast in Nepal (known as the \"standard route\") and the other from the north in Tibet. While not posing substantial technical climbing challenges on the standard route, Everest presents dangers such as altitude sickness, weather, and wind, as well as significant hazards from avalanches and the Khumbu Icefall. As of 2019, over 300 people have died on Everest, many of whose bodies remain on the mountain."
+      ],
+      "difficulty": 4.0,
+      "imgUrls": [
+        "everest1.jpeg",
+        "everest2.jpeg",
+        "everest3.jpeg",
+        "everest4.jpeg"
+      ],
+      "region": "Asia",
+      "totalBooked": 0,
+      "price": 52.0,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad38e"),
+        "name": "Gloria Macintosh",
+        "imgUrl": "user4.jpeg",
+        "rate": 4.9
+      }
+    },
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad395"),
+      "name": "The Rocky Mountains",
+      "latlang": {
+        "lat": 40.3333178,
+        "lng": -105.7088953
+      },
+      "date": 1620334800000,
+      "duration": "4 Days",
+      "type": "mountain",
+      "description": [
+        "The Rocky Mountains, also known as the Rockies, are a major mountain range in western North America. The Rocky Mountains stretch 3,000 mi (4,800 km) in straight-line distance from the northernmost part of British Columbia, in western Canada, to New Mexico in the Southwestern United States.",
+        "The northern terminus is located in the Liard River area east of the Pacific Coast Ranges, while the southernmost point is near the Albuquerque area adjacent the Rio Grande Basin and north of the Sandia–Manzano Mountain Range.",
+        "Located within the North American Cordillera, the Rockies are distinct from the Cascade Range and the Sierra Nevada, which all lie farther to the west."
+      ],
+      "difficulty": 4.0,
+      "imgUrls": [
+        "rocky1.jpeg",
+        "rocky2.jpeg",
+        "rocky3.jpeg",
+        "rocky4.jpeg"
+      ],
+      "region": "USA",
+      "totalBooked": 0,
+      "price": 24.3,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad389"),
+        "name": "Puki Globali",
+        "imgUrl": "user3.jpeg",
+        "rate": 4.3
+      }
+    },
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad396"),
+      "name": "Machu Picchu",
+      "latlang": {
+        "lat": 43.6387194444444,
+        "lng": -116.241351348523
+      },
+      "date": 1651870800000,
+      "duration": "1 Day",
+      "type": "mountain",
+      "description": [
+        "Machu Picchu is a 15th-century Inca citadel, located in the Eastern Cordillera of southern Peru, on a 2,430-metre (7,970 ft) mountain ridge. It is located in the Machupicchu District within Urubamba Province above the Sacred Valley, which is 80 kilometres (50 mi) northwest of Cuzco.",
+        "The Urubamba River flows past it, cutting through the Cordillera and creating a canyon with a tropical mountain climate.",
+        "Machu Picchu is both a cultural and natural UNESCO World Heritage Site. Since its discovery in 1911, growing numbers of tourists have visited the site each year, including 1,411,279 in 2017. As Peru's most visited tourist attraction and major revenue generator, it is continually exposed to economic and commercial forces. In the late 1990s, the Peruvian government granted concessions to allow the construction of a cable car and a luxury hotel, including a tourist complex with boutiques and restaurants and a bridge to the site."
+      ],
+      "difficulty": 3.0,
+      "imgUrls": [
+        "machu1.jpeg",
+        "machu2.jpeg",
+        "machu3.jpeg",
+        "machu4.jpeg"
+      ],
+      "region": "South America",
+      "totalBooked": 0,
+      "price": 32.56,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad38f"),
+        "name": "Lily Blossom ",
+        "imgUrl": "user6.jpeg",
+        "rate": 4.2
+      }
+    },
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad397"),
+      "name": "Tuscany Vineyards",
+      "latlang": {
+        "lat": 43.769562,
+        "lng": 11.255814
+      },
+      "date": 1621026000000,
+      "duration": "1 Day",
+      "type": "forest",
+      "description": [
+        "Tuscany is known for its landscapes, history, artistic legacy, and its influence on high culture. It is regarded as the birthplace of the Italian Renaissance and has been home to many figures influential in the history of art and science, and contains well-known museums such as the Uffizi and the Pitti Palace.",
+        "Tuscany is also known for its wines, including Chianti, Vino Nobile di Montepulciano, Morellino di Scansano, Brunello di Montalcino and white Vernaccia di San Gimignano.",
+        "Having a strong linguistic and cultural identity, it is sometimes considered \"a nation within a nation\"."
+      ],
+      "difficulty": 2.0,
+      "imgUrls": [
+        "tuscany1.jpeg",
+        "tuscany2.jpeg",
+        "tuscany3.jpeg",
+        "tuscany4.jpeg"
+      ],
+      "region": "Europe",
+      "totalBooked": 3,
+      "price": 10.59,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad389"),
+        "name": "Puki Globali",
+        "imgUrl": "user3.jpeg",
+        "rate": 4.3
+      }
+    },
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad398"),
+      "name": "Sherwood Forest",
+      "latlang": {
+        "lat": 53.205875,
+        "lng": -1.0860901
+      },
+      "date": 1717275600000,
+      "duration": "1 Day",
+      "type": "forest",
+      "description": [
+        "Sherwood Forest is a royal forest in Nottinghamshire, England, famous by its historic association with the legend of Robin Hood.",
+        "The area has been wooded since the end of the Last Glacial Period (as attested by pollen sampling cores). Today, Sherwood Forest National Nature Reserve encompasses 423.2 hectares (1,046 acres), surrounding the village of Edwinstowe, the site of Thoresby Hall.",
+        "It is a remnant of an older, much larger, royal hunting forest, which derived its name from its status as the shire (or sher) wood of Nottinghamshire, which extended into several neighbouring counties (shires), bordered on the west along the River Erewash and the Forest of East Derbyshire. When the Domesday Book was compiled in 1086, the forest covered perhaps a quarter of Nottinghamshire (approximately 19,000 acres or 7,800 hectares) in woodland and heath subject to the forest laws. The forest gives its name to the Sherwood Parliamentary constituency."
+      ],
+      "difficulty": 4.0,
+      "imgUrls": [
+        "sherwood1.jpeg",
+        "sherwood2.jpeg",
+        "sherwood3.jpeg",
+        "sherwood4.jpeg"
+      ],
+      "region": "Europe",
+      "totalBooked": 0,
+      "price": 12.79,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad389"),
+        "name": "Puki Globali",
+        "imgUrl": "user3.jpeg",
+        "rate": 4.3
+      }
+    },
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad399"),
+      "name": "The Daintree Rainforest",
+      "latlang": {
+        "lat": 16.17,
+        "lng": 145.4185
+      },
+      "date": 1647468000000,
+      "duration": "3 Days",
+      "type": "forest",
+      "description": [
+        "The Daintree Rainforest is a region on the northeast coast of Queensland, Australia, north of Mossman and Cairns. At around 1,200 square kilometres (460 sq mi), the Daintree is a part of the largest continuous area of tropical rainforest on the Australian continent.",
+        "The Daintree Rainforest is a part of the Wet Tropics of Queensland Rainforest, that spans across the Cairns Region. The Wet Tropics Rainforest (that the Daintree is a part of) is the oldest continually surviving tropical rainforest in the world.",
+        "Along the coastline north of the Daintree River, tropical forest grows right down to the edge of the sea. In 2009 as part of the Q150 celebrations, the Daintree Rainforest was announced as one of the Q150 Icons of Queensland for its role as a \"natural attraction\"."
+      ],
+      "difficulty": 3.0,
+      "imgUrls": [
+        "daintree1.jpeg",
+        "daintree2.jpeg",
+        "daintree3.jpeg",
+        "daintree4.jpeg"
+      ],
+      "region": "Australia",
+      "totalBooked": 0,
+      "price": 10.59,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad38e"),
+        "name": "Gloria Macintosh",
+        "imgUrl": "user4.jpeg",
+        "rate": 4.9
+      }
+    },
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad39a"),
+      "name": "The Amazon rainforest",
+      "latlang": {
+        "lat": -2.163106,
+        "lng": -55.126648
+      },
+      "date": 1613944800000,
+      "duration": "7 Days",
+      "type": "forest",
+      "description": [
+        "The Amazon rainforest, alternatively, the Amazon Jungle, also known in English as Amazonia, is a moist broadleaf tropical rainforest in the Amazon biome that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 km2 (2,700,000 sq mi), of which 5,500,000 km2 (2,100,000 sq mi) are covered by the rainforest.",
+        "This region includes territory belonging to nine nations. The majority of the forest is contained within Brazil, with 60% of the rainforest, followed by Peru with 13%, Colombia with 10%, and with minor amounts in Bolivia, Ecuador, French Guiana, Guyana, Suriname, and Venezuela.",
+        "Four nations have \"Amazonas\" as the name of one of their first-level administrative regions and France uses the name \"Guiana Amazonian Park\" for its rainforest protected area. The Amazon represents over half of the planet's remaining rainforests, and comprises the largest and most biodiverse tract of tropical rainforest in the world, with an estimated 390 billion individual trees divided into 16,000 species."
+      ],
+      "difficulty": 2.0,
+      "imgUrls": [
+        "amazon1.jpeg",
+        "amazon2.jpeg",
+        "amazon3.jpeg",
+        "amazon4.jpeg"
+      ],
+      "region": "South America",
+      "totalBooked": 4,
+      "price": 32.99,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad38e"),
+        "name": "Gloria Macintosh",
+        "imgUrl": "user4.jpeg",
+        "rate": 4.9
+      }
+    },
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad39f"),
+      "name": "London Jems",
+      "latlang": {
+        "lat": 51.509865,
+        "lng": -0.118092
+      },
+      "date": 1646776800000,
+      "duration": "1 Day",
+      "type": "city",
+      "description": [
+        "London is the capital and largest city of England and the United Kingdom. The city stands on the River Thames in the south-east of England, at the head of its 50-mile (80 km) estuary leading to the North Sea.",
+        "London has been a major settlement for two millennia. Londinium was founded by the Romans. The City of London, London's ancient core and financial centre − an area of just 1.12 square miles (2.9 km2) and colloquially known as the Square Mile − retains boundaries that closely follow its medieval limits London has a diverse range of people and cultures, and more than 300 languages are spoken in the region.",
+        "Its estimated mid-2018 municipal population (corresponding to Greater London) was 8,908,081, the third-most populous of any city in Europe and accounts for 13.4% of the UK population. London's urban area is the third most populous in Europe, after Moscow and Paris, with 9,787,426 inhabitants at the 2011 census. The London commuter belt is the second-most populous in Europe, after the Moscow Metropolitan Area, with 14,040,163 inhabitants in 2016."
+      ],
+      "difficulty": 1.0,
+      "imgUrls": [
+        "london1.jpeg",
+        "london2.jpeg",
+        "london3.jpeg",
+        "london4.jpeg"
+      ],
+      "region": "Europe",
+      "totalBooked": 2,
+      "price": 22.09,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad389"),
+        "name": "Puki Globali",
+        "imgUrl": "user3.jpeg",
+        "rate": 4.0
+      }
+    },
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad3a0"),
+      "name": "Tel-Aviv Walkabout",
+      "latlang": {
+        "lat": 32.0853,
+        "lng": 34.7818
+      },
+      "date": 1659301200000,
+      "duration": "1 Day",
+      "type": "city",
+      "description": [
+        "Tel Aviv receives about 2.5 million international visitors annually, the fifth-most-visited city in the Middle East & Africa. In 2010, Knight Frank's world city survey ranked it 34th globally. Tel Aviv has been named the third \"hottest city for 2011\" (behind only New York City and Tangier) by Lonely Planet, third-best in the Middle East and Africa by Travel + Leisure magazine (behind only Cape Town and Jerusalem), and the ninth-best beach city in the world by National Geographic.",
+        "Tel Aviv is consistently ranked as one of the top LGBT destinations in the world. The city has also been ranked as one of the top 10 oceanfront cities. Tel Aviv is known as \"the city that never sleeps\" and a \"party capital\" due to its thriving nightlife, young atmosphere and famous 24-hour culture.",
+        "Tel Aviv has branches of some of the world's leading hotels, including the Crowne Plaza, Sheraton, Dan, Isrotel and Hilton. It is home to many museums, architectural and cultural sites, with city tours available in different languages. Apart from bus tours, architectural tours, Segway tours, and walking tours are also popular. Tel Aviv has 44 hotels with more than 6,500 rooms. The beaches of Tel Aviv and the city's promenade play a major role in the city's cultural and touristic scene, often ranked as some of the best beaches in the world. Hayarkon Park is the most visited urban park in Israel, with 16 million visitors annually. Other parks within city limits include Charles Clore Park, Independence Park, Meir Park and Dubnow Park. About 19% of the city land are green spaces."
+      ],
+      "difficulty": 1.0,
+      "imgUrls": [
+        "telaviv1.jpeg",
+        "telaviv2.jpeg",
+        "telaviv3.jpeg",
+        "telaviv4.jpeg"
+      ],
+      "region": "Asia",
+      "totalBooked": 5,
+      "price": 24.29,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad38e"),
+        "name": "Gloria Macintosh",
+        "imgUrl": "user4.jpeg",
+        "rate": 4.9
+      }
+    },
+    {
+      "_id": ObjectId("5fc538bcba5fd6d904aad3a1"),
+      "name": "Paris at Night",
+      "latlang": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      },
+      "date": 1689973200000,
+      "duration": "1 Day",
+      "type": "city",
+      "description": [
+        "Greater Paris, comprising Paris and its three surrounding departments, received 38 million visitors in 2019, a record, measured by hotel arrivals. These included 12.2 million French visitors. Of foreign visitors, the greatest number came from the United States (2.6 million), United Kingdom (1.2 million), Germany (981 thousand) and China (711 thousand).",
+        "In 2018, measured by the Euromonitor Global Cities Destination Index, Paris was the second-busiest airline destination in the world, with 19.10 million visitors, behind Bangkok (22.78 million) but ahead of London (19.09 million).",
+        "According to the Paris Convention and Visitors Bureau, 393,008 workers in Greater Paris, or 12.4% of the total workforce, are engaged in tourism-related sectors such as hotels, catering, transport and leisure."
+      ],
+      "difficulty": 3.0,
+      "imgUrls": [
+        "paris1.jpeg",
+        "paris2.jpeg",
+        "paris3.jpeg",
+        "paris4.jpeg"
+      ],
+      "region": "Europe",
+      "totalBooked": 0,
+      "price": 17.39,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad38e"),
+        "name": "Gloria Macintosh",
+        "imgUrl": "user4.jpeg",
+        "rate": 4.9
+      }
+    },
+    {
+      "_id": ObjectId("5fc690f1ba5fd6d904aad3af"),
+      "name": "Amsterdam Wandering",
+      "latlang": {
+        "lat": 52.3676,
+        "lng": 4.9041
+      },
+      "date": 1727989200000,
+      "duration": "1 Day",
+      "type": "city",
+      "description": [
+        "Amsterdam is the capital and most populous city of the Netherlands with a population of 872,680 within the city proper, 1,558,755 in the urban area and 2,480,394 in the metropolitan area. Found within the province of North Holland, Amsterdam is colloquially referred to as the \"Venice of the North\", attributed by the large number of canals which form a UNESCO World Heritage Site.",
+        "Amsterdam's main attractions include its historic canals, the Rijksmuseum, the Van Gogh Museum, the Stedelijk Museum, Hermitage Amsterdam, the Concertgebouw, the Anne Frank House, the Scheepvaartmuseum, the Amsterdam Museum, the Heineken Experience, the Royal Palace of Amsterdam, Natura Artis Magistra, Hortus Botanicus Amsterdam, NEMO, the red-light district and many cannabis coffee shops. It drew more than 5 million international visitors in 2014",
+        "The city is also well known for its nightlife and festival activity; with several of its nightclubs (Melkweg, Paradiso) among the world's most famous. Primarily known for its artistic heritage, elaborate canal system and narrow houses with gabled façades; well-preserved legacies of the city's 17th-century Golden Age. These characteristics are arguably responsible for attracting millions of Amsterdam's visitors annually. Cycling is key to the city's character, and there are numerous bike paths."
+      ],
+      "difficulty": 2.0,
+      "imgUrls": [
+        "amsterdam1.jpeg",
+        "amsterdam2.jpeg",
+        "amsterdam3.jpeg",
+        "amsterdam4.jpeg"
+      ],
+      "region": "Europe",
+      "totalBooked": 0,
+      "price": 42.09,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad389"),
+        "name": "Puki Globali Grosman",
+        "imgUrl": "user3.jpeg",
+        "rate": 4.0
+      }
+    },
+    {
+      "_id": ObjectId("5fc8c6124f143aec2d76beb8"),
+      "name": "New York City",
+      "latlang": {
+        "lat": 40.7128,
+        "lng": 74.0060
+      },
+      "date": 1727989200000,
+      "duration": "2 Days",
+      "type": "city",
+      "description": [
+        "New York City (NYC), often called simply New York, is the most populous city in the United States. With an estimated 2019 population of 8,336,817 distributed over about 302.6 square miles (784 km2), New York City is also the most densely populated major city in the United States.",
+        "New York City has over 28,000 acres (110 km2) of parkland and 14 linear miles (22 km) of public beaches. Manhattan's Central Park, designed by Frederick Law Olmsted and Calvert Vaux, is the most visited city park in the United States. Prospect Park in Brooklyn, also designed by Olmsted and Vaux, has a 90-acre (36 ha) meadow. Flushing Meadows–Corona Park in Queens, the city's fourth-largest, was the setting for the 1939 World's Fair and 1964 World's Fair.",
+        "New York City has a rich musical culture and history. Accordingly, numerous jazz, gospel music, rock and roll, rhythm and blues and hip hop tours are available. Popular locations for music tours include Harlem and the East Village. Walking tours are one of the most popular ways of seeing the city and many private guides supply tours."
+      ],
+      "difficulty": 3.0,
+      "imgUrls": [
+        "newyork1.jpeg",
+        "newyork2.jpeg",
+        "newyork3.jpeg",
+        "newyork4.jpeg"
+      ],
+      "region": "USA",
+      "totalBooked": 0,
+      "price": 62.49,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad38f"),
+        "name": "Lily Blossom ",
+        "imgUrl": "user6.jpeg",
+        "rate": 4.7
+      }
+    },
+    {
+      "_id": ObjectId("5fc8c6124f143aec2d76beb9"),
+      "name": "Los Angeles ",
+      "latlang": {
+        "lat": 34.0522,
+        "lng": 118.2437
+      },
+      "date": 1727989200000,
+      "duration": "1 Day",
+      "type": "city",
+      "description": [
+        "Los Angeles officially the City of Los Angeles and often known by its initials L.A., is the largest city in California. With an estimated population of nearly four million people, it is the second most populous city in the United States (after New York City) and the third most populous city in North America (after Mexico City and New York City). Los Angeles is known for its Mediterranean climate, ethnic diversity, Hollywood entertainment industry, and its sprawling metropolis.",
+        "Los Angeles is often billed as the \"Creative Capital of the World\", because one in every six of its residents works in a creative industry and there are more artists, writers, filmmakers, actors, dancers and musicians living and working in Los Angeles than any other city at any other time in history.",
+        "The city's Hollywood neighborhood has become recognized as the center of the motion picture industry and the Los Angeles area is also associated as being the center of the television industry. The city is home to the major film studios as well as major record labels."
+      ],
+      "difficulty": 3.0,
+      "imgUrls": [
+        "la1.jpeg",
+        "las2.jpeg",
+        "la3.jpeg",
+        "la4.jpeg"
+      ],
+      "region": "USA",
+      "totalBooked": 0,
+      "price": 42.79,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad38f"),
+        "name": "Lily Blossom ",
+        "imgUrl": "user6.jpeg",
+        "rate": 4.7
+      }
+    },
+    {
+      "_id": ObjectId("5fc8c6124f143aec2d76beba"),
+      "name": "Yosemite National Park ",
+      "latlang": {
+        "lat": 37.8651,
+        "lng": 119.5383
+      },
+      "date": 1727989200000,
+      "duration": "4 Days",
+      "type": "mountain",
+      "description": [
+        "Yosemite National Park is an American national park in the western Sierra Nevada of Central California,[5][6] bounded on the southeast by Sierra National Forest and on the northwest by Stanislaus National Forest. The park is managed by the National Park Service and covers an area of 748,436 acres (1,169 sq mi; 3,029 km2)[2] and sits in four counties: centered in Tuolumne and Mariposa, extending north and east to Mono and south to Madera County. ",
+        "Designated a World Heritage Site in 1984, Yosemite is internationally recognized for its granite cliffs, waterfalls, clear streams, giant sequoia groves, lakes, mountains, meadows, glaciers, and biological diversity. Almost 95% of the park is designated wilderness.",
+        "Yosemite Valley is open year-round and numerous activities are available through the National Park Service, Yosemite Conservancy, and Aramark at Yosemite, including nature walks, photography and art classes, stargazing programs, tours, bike rentals, rafting, mule and horseback rides, and rock climbing classes."
+      ],
+      "difficulty": 4.0,
+      "imgUrls": [
+        "yosem1.jpeg",
+        "yosem2.jpeg",
+        "yosem3.jpeg",
+        "yosem4.jpeg"
+      ],
+      "region": "USA",
+      "totalBooked": 0,
+      "price": 72.79,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad38e"),
+        "name": "Gloria Macintosh",
+        "imgUrl": "user4.jpeg",
+        "rate": 4.9
+      }
+    },
+    {
+      "name": "Tongass National Forest ",
+      "latlang": {
+        "lat": 58.3743,
+        "lng": 134.7285
+      },
+      "date": 1727989200000,
+      "duration": "4 Days",
+      "type": "forest",
+      "description": [
+        "The Tongass National Forest in Southeast Alaska is the largest national forest in the United States at 16.7 million acres (26,100 sq mi; 68,000 km2). Most of its area is temperate rain forest, and is remote enough to be home to many species of endangered and rare flora and fauna.",
+        "he Tongass, which is managed by the United States Forest Service, encompasses islands of the Alexander Archipelago, fjords and glaciers, and peaks of the Coast Mountains. An international border with Canada (British Columbia) runs along the crest of the Boundary Ranges of the Coast Mountains.",
+        "The forest is administered from Forest Service offices in Ketchikan. There are local ranger district offices located in Craig, Hoonah, Juneau, Ketchikan, Petersburg, Sitka, Thorne Bay, Wrangell, and Yakutat."
+      ],
+      "difficulty": 2.0,
+      "imgUrls": [
+        "tongass1.jpeg",
+        "tongass2.jpeg",
+        "tongass3.jpeg",
+        "tongass4.jpeg"
+      ],
+      "region": "USA",
+      "totalBooked": 0,
+      "price": 32.49,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad38b"),
+        "name": "Wally Wanderer",
+        "imgUrl": "user2.jpeg",
+        "rate": 2.3
+      }
+    },
+    {
+      "name": "Sagano Bamboo Forest ",
+      "latlang": {
+        "lat": 35.0093,
+        "lng": 135.7788
+      },
+      "date": 1727989200000,
+      "duration": "2 Days",
+      "type": "forest",
+      "description": [
+        "GROWING TALL ON THE EDGES of Kyoto, the Sagano Bamboo Forest is a once tranquil nature spot that is now a series of tourist-packed pathways, but if you can escape the sounds of camera shutters and boorish visitors, you’ll hear the rustling, creaking, and swaying of one of Japan’s governmentally recognized soundscapes.",
+        "Only 30 minutes or so from Kyoto city center, the towering bamboo forest is an almost shocking contrast to the urbanity surrounding it. Wooden paths weave through the dense thicket of tall bamboo stalks that reach dozens of feet into the sky, creating a canopy. As the wind passes through the tightly packed plants, the wood bends and creaks, the leaves rustle, and the trunks knock together, creating a peaceful sound like almost nothing else. That is, when the hordes of tourists aren’t drowning it out.",
+        "The meditative natural noise is so lovely, in fact, that Japan’s Ministry of the Environment designated the location’s aural pleasures as one of the country’s “100 Soundscapes of Japan,” an initiative designed to encourage the local population to get out and appreciate the country’s acoustic wonders. If visitors can find a time to visit the bamboo forest when it is relatively empty the combination of visual beauty and auditory calm may be one of a kind. There is no word, however, on how the place smells. "
+      ],
+      "difficulty": 2.0,
+      "imgUrls": [
+        "sagano1.jpeg",
+        "sagano2.jpeg",
+        "sagano3.jpeg",
+        "sagano4.jpeg"
+      ],
+      "region": "Asia",
+      "totalBooked": 0,
+      "price": 32.49,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad38b"),
+        "name": "Wally Wanderer",
+        "imgUrl": "user2.jpeg",
+        "rate": 2.3
+      }
+    },
+    {
+      "name": "Miami Lights",
+      "latlang": {
+        "lat": 25.761681,
+        "lng": -80.191788
+      },
+      "date": 1692651600000,
+      "type": "city",
+      "description": [
+        "Miami Beach is a coastal resort city in Miami-Dade County, Florida, United States. It was incorporated on March 26, 1915. The municipality is located on natural and man-made barrier islands between the Atlantic Ocean and Biscayne Bay, the latter of which separates the Beach from the mainland city of Miami.",
+        "The neighborhood of South Beach, comprising the southernmost 2.5 square miles (6.5 km2) of Miami Beach, along with downtown Miami and the Port of Miami, collectively form the commercial center of South Florida. Miami Beach's estimated population is 88,885 according to the most recent United States census estimates.",
+        "Miami Beach is the 26th largest city in Florida based on official 2019 estimates from the US Census Bureau. It has been one of America's pre-eminent beach resorts since the early 20th century."
+      ],
+      "difficulty": 1.0,
+      "imgUrls": [
+        "miami1.jpeg",
+        "miami2.jpeg",
+        "miami3.jpeg",
+        "miami4.jpeg"
+      ],
+      "region": "USA",
+      "capacity": 5.0,
+      "price": 18.59,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad389"),
+        "name": "Puki Globali",
+        "imgUrl": "user3.jpeg",
+        "rate": 4.0
+      }
+    },
+    {
+      "name": "Costa Brava",
+      "latlang": {
+        "lat": 42.2755,
+        "lng": 3.0176
+      },
+      "date": 1692651600000,
+      "type": "city",
+      "description": [
+        "The Costa Brava is a coastal region of Catalonia in northeastern Spain, consisting of the comarques (counties) of Alt Empordà, Baix Empordà and Selva in the province of Girona.",
+        "Costa Brava stretches from the town of Blanes, 60 km (37 mi) northeast of Barcelona, to the French border. In the 1950s, the Costa Brava was identified by the Spanish government and local entrepreneurs as being suitable for substantial development as a holiday destination, mainly for package holiday tourists from Europe.",
+        "The combination of a very good summer climate, nature, excellent beaches and a favourable foreign exchange rate (before the creation of the single European currency), which made Costa Brava an attractive tourist destination, was exploited by the construction of large numbers of hotels and apartments in such seaside resorts as Blanes, Tossa de Mar and Lloret de Mar. Tourism rapidly took over from fishing as the principal business of the area."
+      ],
+      "difficulty": 1.0,
+      "imgUrls": [
+        "brava1.jpeg",
+        "brava2.jpeg",
+        "brava3.jpeg",
+        "brava4.jpeg"
+      ],
+      "region": "Europe",
+      "totalBooked": 0,
+      "price": 23.59,
+      "aboutGuide": {
+        "_id": ObjectId("5fc531cfba5fd6d904aad389"),
+        "name": "Puki Globali",
+        "imgUrl": "user3.jpeg",
+        "rate": 4.0
+      }
+    }
+  ],
+  "booking": [
+    {
+      "_id": "b1002",
+      "cretatedAt": 9898989,
+      "user": {
+        "_id": "u104",
+        "name": "Charles Xavier",
+        "imgUrl": "user5.jpeg"
+      },
+      "guide": {
+        "_id": "u101",
+        "name": "Puki Globali",
+        "imgUrl": "user3.jpeg"
+      },
+      "trip": {
+        "_id": "t102-3",
+        "name": "The Daintree Rainforest",
+        "imgUrl": "daintree1.jpeg"
+      },
+      "status": "pending",
+      "peopleToSign": 3,
+      "specialReq": "With kids so please something relaxing"
+    },
+    {
+      "guide": {
+        "_id": "u103",
+        "name": "Wally Wanderer",
+        "imgUrl": "user2.jpeg"
+      },
+      "trip": {
+        "_id": "t101-2",
+        "name": "Switzerland Mountains"
+      },
+      "status": "pending",
+      "peopleToSign": 1,
+      "specialReq": "Allergic to bees",
+      "user": {
+        "_id": "u102",
+        "name": "Shuki Locali",
+        "imgUrl": "user1.jpeg"
+      },
+      "_id": "79snJof"
+    },
+    {
+      "guide": {
+        "_id": "u103",
+        "name": "Wally Wanderer",
+        "imgUrl": "user2.jpeg"
+      },
+      "trip": {
+        "_id": "t101-1",
+        "name": "Scotland Highlands",
+        "imgUrl": [
+          "trip1.jpg",
+          "trip2.jpg",
+          "trip3.jpg",
+          "trip4.jpg"
+        ]
+      },
+      "status": "pending",
+      "peopleToSign": 2,
+      "specialReq": "We love the extreme",
+      "user": {
+        "_id": "u102",
+        "name": "Shuki Locali",
+        "imgUrl": "user1.jpeg"
+      },
+      "_id": "5Zs-T9t"
+    },
+    {
+      "guide": {
+        "_id": "u101",
+        "name": "Puki Globali",
+        "imgUrl": "user3.jpeg"
+      },
+      "trip": {
+        "_id": "t106-1",
+        "name": "London Jems",
+        "imgUrl": [
+          "trip1.jpg",
+          "trip2.jpg",
+          "trip3.jpg",
+          "trip4.jpg"
+        ]
+      },
+      "status": "approved",
+      "peopleToSign": 2,
+      "specialReq": "Would love to go on the London Eye",
+      "user": {
+        "_id": "u105",
+        "name": "Mr. Bit",
+        "imgUrl": "user7.jpeg"
+      },
+      "_id": "wyEFAlk"
+    },
+    {
+      "guide": {
+        "_id": "u101",
+        "name": "Puki Globali",
+        "imgUrl": "user3.jpeg"
+      },
+      "trip": {
+        "_id": "t103-1",
+        "name": "Miami Beaches",
+        "imgUrl": [
+          "miami1.jpeg",
+          "trip2.jpg",
+          "trip3.jpg",
+          "trip4.jpg"
+        ]
+      },
+      "status": "pending",
+      "peopleToSign": 1,
+      "specialReq": "Lot's of Beach Time",
+      "sum": 18.59,
+      "user": {
+        "_id": "u102",
+        "name": "Shuki Locali",
+        "imgUrl": "user1.jpeg"
+      },
+      "_id": "e99kT9-"
+    }
+  ]
+}
